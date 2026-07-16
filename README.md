@@ -40,20 +40,22 @@ python 07_spacex_dash_app-skv.py
 
 
 #Results
-Prediction accuracy: ≈ 85 % using logistic regression and decision‑tree models.
+The machine learning models I tested (logistic regression and decision tree) achieved around 85% accuracy in predicting launch success.
 
-##Key insights:
+From my analysis, a few important patterns stood out:
 
-Booster reuse strongly correlates with successful launches.
+Booster reuse plays a major role in whether a launch succeeds.
 
-Launch sites closer to the equator improve payload efficiency.
+Launch site location matters — sites closer to the equator tend to support better payload efficiency.
 
-The interactive dashboard visualizes success rates by site and booster version.
+The interactive dashboard I built makes it easy to explore success rates by site, booster version, and payload class.
 
+My Insights
+Working through this project helped me connect data collection, wrangling, visualization, and prediction into one workflow. The biggest takeaway was seeing how data from multiple sources (API + web scraping) can be combined to give a richer picture of launch outcomes. Building the dashboard also gave me hands‑on practice with Plotly Dash, which made the results more engaging and easier to interpret.
 
 
 Objective
-To predict the likelihood of successful Falcon 9 launches and visualize insights through interactive dashboards.
+The goal of this project was not only to predict the likelihood of successful Falcon 9 launches, but also to practice the full data‑science pipeline — from collecting raw data through APIs and web scraping, to cleaning and visualizing it, and finally applying machine learning models. By completing each stage, I strengthened my skills in data wrangling, exploratory analysis, geospatial visualization, and predictive modeling. Building the interactive dashboard gave me hands‑on experience in presenting results in a way that is both clear and engaging.
 
 References
 IBM Data Science Capstone (Coursera): Course Link (coursera.org)
